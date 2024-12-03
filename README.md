@@ -1,2 +1,3 @@
 # ATACSEQ
-Bulk ATAC-Seq
+Bulk ATAC-Seq pipeline
+
