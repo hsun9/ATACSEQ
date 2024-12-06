@@ -25,7 +25,7 @@ def main():
     cpath = os.path.dirname(__file__)
     fconfig = f'{cpath}/config.ini'
     fbsub = f'{cpath}/hpc.bsub.sh'
-    fscript = f'{cpath}/atac.fq2peak.sh'
+    fscript = f'{cpath}/atac.fq2peak.bwa_genrich.sh'
 
     with open(args.yaml) as f:
         dyaml = yaml.safe_load(f)
